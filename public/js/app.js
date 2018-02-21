@@ -108,7 +108,6 @@ function initMap() {
     // e.preventDefault(); 
     calcularRuta(direccionService, direccionDisplay);   
     getCoords();
-    document.getElementById('estimarPrecio').classList.add('visible');
   });
 }
 
