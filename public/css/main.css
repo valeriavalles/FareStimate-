@@ -1,0 +1,77 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: #000;
+  background-color: rgb(87, 88, 90) ;
+   font-family: 'Roboto', sans-serif;
+}
+
+.estimTarifa {
+  width: 50%;
+  background:#fff;
+}
+.cont-m {
+  background: #fff;
+}
+h4, p {
+  margin: 2%;
+  margin-left: 3.5rem;
+}
+.price-name {
+  padding-top:4%;
+}
+
+header {
+  background: #000;
+}
+
+.cont-header {
+  
+  background: #000;
+}
+/*styles about section tarifa*/
+.form-group input[type="text"]{
+  background:none;
+  border: 1px solid gray  ;
+  width: 70%;
+  display: inline-block;
+  color: #000;
+  border-radius:0;
+  margin: 2%;
+}
+input[type="text"]::-webkit-input-placeholder{
+  color:gray;
+}
+#tarifa{
+
+  background: url('../assets/images/uber.png')
+              center no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  /*padding: 5% ;*/
+}
+#map {
+  width: 100%;
+  height: 400px;
+  border-radius: 5px;
+  margin-top: 5%;
+}
+.cont-bienve {
+  background: #fff;
+  text-align: center;
+  margin-top: 5%;
+}
+
+.invisible{
+	display: none;
+}
+.visible{
+  display: block;
+  visibility: visible;
+}
+
