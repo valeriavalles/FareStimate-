@@ -16,6 +16,9 @@ body {
 }
 .cont-m {
   background: #fff;
+  border-radius: 5px;
+  padding-left: 4%;
+  margin-top: 5%;
 }
 h4, p {
   margin: 2%;
@@ -29,8 +32,10 @@ header {
   background: #000;
 }
 
+
 .cont-header {
-  
+  padding: 1.5%;
+  padding-bottom: 4%;
   background: #000;
 }
 /*styles about section tarifa*/
@@ -49,10 +54,10 @@ input[type="text"]::-webkit-input-placeholder{
 #tarifa{
 
   background: url('../assets/images/uber.png')
-              center no-repeat;
+               no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   /*padding: 5% ;*/
 }
 #map {
@@ -64,6 +69,23 @@ input[type="text"]::-webkit-input-placeholder{
 .cont-bienve {
   background: #fff;
   text-align: center;
+  border-radius: 5px;
   margin-top: 5%;
+  padding-bottom: 0.3%;
+  
+  
+}
+
+
+.invisible{
+	display: none;
+}
+.visible{
+  display: block;
+  visibility: visible;
+}
+
+.precios{
+  border-radius: 5px;
 }
 
