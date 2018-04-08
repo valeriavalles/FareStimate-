@@ -13,6 +13,9 @@ body {
 .estimTarifa {
   width: 50%;
   background:#fff;
+  border-radius: 6px;
+  text-align: center;
+  margin-left: 22%;
 }
 .cont-m {
   background: #fff;
@@ -22,7 +25,7 @@ body {
 }
 h4, p {
   margin: 2%;
-  margin-left: 3.5rem;
+ /* margin-left: 3.5rem;*/
 }
 .price-name {
   padding-top:4%;
@@ -45,8 +48,11 @@ header {
   width: 70%;
   display: inline-block;
   color: #000;
-  border-radius:0;
+  border-radius:5px;
   margin: 2%;
+}
+.partida {
+  margin-bottom: 0;
 }
 input[type="text"]::-webkit-input-placeholder{
   color:gray;
@@ -89,3 +95,20 @@ input[type="text"]::-webkit-input-placeholder{
   border-radius: 5px;
 }
 
+/*-- Btn stimate price --*/
+
+#estimarPrecio {
+  margin-left: 28%;
+  margin-bottom: 5%;
+}
+
+@media (min-width:768px){
+  .estimTarifa {
+    border-radius: 6px;
+    text-align: center;
+    margin-left: 22%;
+  }
+  #estimarPrecio {
+    margin-left: 35%;
+  }
+}
